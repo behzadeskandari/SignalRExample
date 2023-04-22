@@ -1,0 +1,35 @@
+
+
+ul{
+    list-style-type: none;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    background: #444753;
+    border-radius: 5px;
+}
+
+.people-list{
+    width: 25%;
+    float: left;
+
+}
+
+
+.people-list .search{
+    padding :20px;
+}
+
+.people-list input{
+    border-radius: 3px;
+    border:none;
+    padding:14px;
+    color:wheat;
+    background: #6a6c75;
+    width: 98%;
+    font-size: 14px;
+}
+

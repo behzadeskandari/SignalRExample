@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link  rel="stylesheet" href="~/css/chat.css" asp-append-version="true" />
+
+<div class="container clearfix">
+    <div class="people-list" id="people-list">
+        User Online LIst
+    </div>
+    <ul class="userList" id="userList">
+
+    </ul>
+    <div id="chatScreenList"></div>
+
+</div>
+
+@section Scripts {
+    <script async src="~/js/chat.js" asp-append-version="true">
+
+    </script>
+}
